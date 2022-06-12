@@ -1,0 +1,106 @@
+body{
+    background-color: #ecf0f2!important;
+}
+
+.btn-next,.btn-next-factura{
+    background-color: #f5a959;
+    border-color: #f5a959;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.btn-next:hover{
+    background-color: #f2c18e;
+    border-color: #f2c18e;
+}
+
+.registerContent{
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.registerContent h2{
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.registerContent label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.registerContent .form-group{
+    margin-top: 10px;
+}
+
+.movil-show{
+    display: none;
+}
+
+.listUsers{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.crear-factura{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .listUsers{
+        overflow-y: auto;
+    }
+
+    .registerContent{ 
+        padding: 12px!important;
+    }
+
+    .movil-show{
+        display: block;
+    }
+
+    #labelNumero{
+        word-wrap: initial;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    #formRegister,#formRegisterFacturas{
+        padding: 20px!important;
+    }
+
+    .col-movil-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .movil-center{
+        justify-content: center!important;
+        text-align: center;
+    }
+
+    .movil-hidden{
+        display: none;
+    }
+
+    .logoContentMovil{
+        margin: 0px !important;
+        padding: 15px!important;
+    }
+
+    .logoContentMovil h5{
+        margin-top: 5px;
+    }
+}

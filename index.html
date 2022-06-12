@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App test</title>
+
+    <link href="css/bootstrap.min.css" rel='stylesheet' />
+    <link href="css/style.css" rel='stylesheet' />
+</head>
+
+<body>
+
+
+    <div class="col-md-12 justify-content-left p-3 my-5 movil-center logoContentMovil">
+        <img src="img/logo.png" style="width: 200px;" alt="">
+        <div class="col-md-10 text-center movil-show">
+            <h5>Crear una cuenta Factoraje</h5>
+            <p>Crear una cuenta para iniciar sesión</p>
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8 registerContent">
+            <form id="formRegister">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-10 text-center movil-hidden">
+                        <h1>Crear una cuenta Factoraje</h1>
+                        <h2>Crear una cuenta para iniciar sesión</h2>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" name="correo" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Escribe tu correo" required>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="password" class="form-control" name="password" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Escribe tu Password" required>
+                        </div>
+                    </div>
+
+
+                    <div class="col-5 col-movil-6">
+                        <div class="form-group">
+                            <label for="exampleInputTipo1">Tipo de Teléfono</label>
+                            <select name="tipo_telefono" id="tipoTelefono" class="form-control" required>
+                                <option>Móvil</option>
+                                <option>Fijo</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-5 col-movil-6">
+                        <div class="form-group">
+                            <label id="labelNumero" for="exampleInputNumero1">Número de teléfono</label>
+                            <input type="number" name="telefono" class="form-control" placeholder="(55) 1234 5678" required>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEstado1">Estado</label>
+                            <select name="estado" id="estado" class="form-control" required>
+                                <option value="">- Selecciona Estado -</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEstado1">Municipio</label>
+                            <select name="municipio" id="municipio" class="form-control" required>
+                                <option value="">- Selecciona Municipio -</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEstado1">Código postal</label>
+                            <input type="number" name="codigo_postal" class="form-control"
+                                placeholder="Escribe tu Código Postal" required>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEstado1">Fecha de nacimiento</label>
+                            <input type="date" name="fecha_nacimiento" class="form-control"
+                                placeholder="Fecha de nacimiento" required>
+                        </div>
+                    </div>
+
+                    <div class="col-md-10 mt-3">
+                        <button type="button" id="btn-submit-user" class="btn btn-primary btn-next">Siguiente</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

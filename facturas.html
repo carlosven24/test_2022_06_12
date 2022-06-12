@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App test</title>
+
+    <link href="css/bootstrap.min.css" rel='stylesheet' />
+    <link href="css/style.css" rel='stylesheet' />
+</head>
+
+<body>
+
+
+    <div class="col-md-12 justify-content-left p-3 my-5 movil-center logoContentMovil">
+        <img src="img/logo.png" style="width: 200px;" alt="">
+        <div class="col-md-10 text-center movil-show">
+            <h5>Crear una Factura</h5>
+            <p>Crear una nueva Factura</p>
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8 registerContent">
+            <form id="formRegisterFacturas">
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-10 text-center movil-hidden">
+                        <h1>Crear una Factura</h1>
+                        <h2>Crear una nueva Factura</h2>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">UUID</label>
+                            <input type="text" class="form-control" name="uuid" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputTipo1">RFC Emisior</label>
+                            <input type="text" name="rfc_emisor" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputTipo1">RFC Receptor</label>
+                            <input type="text" name="rfc_receptor" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label for="exampleInputNumero1">Monto</label>
+                            <input type="number" name="monto" class="form-control" placeholder="USD">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-10 mt-3">
+                        <button type="button" class="btn btn-primary btn-next" id="btn-next-factura">Siguiente</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
