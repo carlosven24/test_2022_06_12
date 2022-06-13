@@ -8,7 +8,7 @@ class Router{
     public function get($url_manage,$controller){
         $url = explode("?",$_SERVER["REQUEST_URI"]);
 
-        if($url[0] == $url_manage){ 
+        if(strpos($url[0],$url_manage)){ 
             print_r($controller); 
             $this->is_404 = true; 
         }

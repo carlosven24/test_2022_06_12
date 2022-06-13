@@ -1,5 +1,5 @@
 
-const urlGlobal = "http://localhost:8000";
+const urlGlobal = "api";
 
 async function getEstados(){
 
